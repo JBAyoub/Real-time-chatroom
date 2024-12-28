@@ -7,16 +7,15 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./src/API.js":
 /*!********************!*\
   !*** ./src/API.js ***!
   \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   changebodycontent: () => (/* binding */ changebodycontent)\n/* harmony export */ });\nvar changebodycontent = function changebodycontent(text) {\n  var newelement = document.createElement('h1');\n  var body = document.querySelector('body');\n  newelement.textContent(text);\n  body.appendChild(newelement);\n};\n\n//# sourceURL=webpack://real-time-chatroom/./src/API.js?");
+eval("\n\n//# sourceURL=webpack://real-time-chatroom/./src/API.js?");
 
 /***/ }),
 
@@ -26,7 +25,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _API_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./API.js */ \"./src/API.js\");\nconsole.log('hello world from index.js ');\n\n(0,_API_js__WEBPACK_IMPORTED_MODULE_0__.changebodycontent)('HELLO WORLD FROM API.js');\n\n//# sourceURL=webpack://real-time-chatroom/./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _API_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./API.js */ \"./src/API.js\");\n/* harmony import */ var _API_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_API_js__WEBPACK_IMPORTED_MODULE_0__);\nconsole.log('hello world from index.js ');\n\n(0,_API_js__WEBPACK_IMPORTED_MODULE_0__.changebodycontent)('HELLO WORLD FROM API.js');\n\n//# sourceURL=webpack://real-time-chatroom/./src/index.js?");
 
 /***/ })
 
@@ -57,6 +57,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _API
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
