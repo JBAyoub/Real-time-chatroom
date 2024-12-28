@@ -1,0 +1,31 @@
+body {
+    background-color: #d4d4d4;
+}
+
+hr {
+    display: inline;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid red;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid red;
+    margin: 0 10px;
+  }
+  .divider span {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #666;
+  }
