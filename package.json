@@ -1,0 +1,21 @@
+{
+  "name": "real-time-chatroom",
+  "version": "1.0.0",
+  "description": "\"# Real-time-chatroom\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "serve": "npx webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
