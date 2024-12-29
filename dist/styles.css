@@ -1,14 +1,5 @@
 body {
-    background-color: #d4d4d4;
-}
-
-hr {
-    display: inline;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid red;
-    margin: 1em 0;
-    padding: 0;
+    background-color: #F4F4F4;
 }
 
 .divider {
@@ -21,7 +12,7 @@ hr {
   .divider::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgba(109, 106, 106,0.5);
     margin: 0 10px;
   }
   .divider span {

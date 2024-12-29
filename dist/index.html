@@ -8,24 +8,34 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
+
+
 <body>
-    <img src="imgs/Group.svg" alt="Image Load Error" loading="lazy">
-    <form>
-        <h4>Welcome to</h4>
-        <h4>Design School</h4>
-        <div class="login-google">
-            <img src="imgs/googoo.jpg" alt="googoo.logo">
-            <span>Login with google</span>
-        </div>
-        <div class="login-facebook">
-            <img src="imgs/fb.jpg" alt="fb.logo">
-            <span>Login with Facebook</span>       
-        </div>
-        <div class="divider">
-            <span>OR</span>
-          </div>
-          
-    </form>
+    <div class="flex items-center justify-evenly shadow-lg shadow-indigo-500/50 mx-auto">
+        <div class=" w-1/2 ps-[173px] pe-[239px] flex-initial">
+            <img src="imgs/Group.svg" class="py-[192px] drop-shadow-xl" alt="Image Load Error" loading="lazy"></div>
+        <div class="loginform shadow-lg shadow-indigo-500/50 flex-1 rounded-md bg-white w-1/2 pt-[42px] pb-[76px] px-[56px] me-[80px]">
+        <form>
+            <h4>Welcome to</h4>
+            <h4>Design School</h4>
+            <div class="content container px-auto">
+                <div class="login-google">
+                    <img src="imgs/googoo.jpg" alt="googoo.logo">
+                    <span>Login with google</span>
+                </div>
+                <div class="login-facebook">
+                    <img src="imgs/fb.jpg" alt="fb.logo">
+                    <span>Login with Facebook</span>       
+                </div>
+                <div class="divider">
+                    <span>OR</span>
+                  </div> 
+            </div>
+            
+        </form>
+    </div>
+    </div>
+    
     <script src="bundle.js"></script>
 </body>
 
