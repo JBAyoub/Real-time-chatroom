@@ -20,3 +20,10 @@ body {
     font-size: 14px;
     color: #666;
   }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb; /* Optional Tailwind-like gray */
+}
