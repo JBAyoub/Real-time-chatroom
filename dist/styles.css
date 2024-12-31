@@ -1,3 +1,6 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 .divider {
     display: flex;
@@ -9,8 +12,7 @@
   .divider::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid rgba(109, 106, 106,0.5);
-    margin: 0 10px;
+    border-bottom: 1px solid #BFBFBF;
   }
   .divider span {
     white-space: nowrap;
@@ -18,9 +20,11 @@
     color: #666;
   }
   html, body {
-    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: #f9fafb; /* Optional Tailwind-like gray */
+}
+.welcomemsg{
+  line-height: 135.5%;
 }

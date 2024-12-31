@@ -5,31 +5,27 @@
     <title>RTCR</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
-<body class="h-screen flex items-center justify-center bg-gray-100 overflow-hidden">
-    <div class="login container w-3/4 h-[940px] flex items-center justify-evenly shadow-lg shadow-indigo-500/50">
-        <div class="flex-1">
-            <img src="imgs/Group.svg" class="drop-shadow-xl" alt="Image Load Error" loading="lazy">
+<body class="flex items-center justify-between bg-gray-100 gap-x-31">
+    <div class="img py-48 ps-[173px]">
+        <img src="imgs/Group.svg" class="lg:w-[640px] h-[640px]"alt="AUTHSVG">
+    </div>
+    <div class="loginform lg:h-[900px] w-[788px] bg-white rounded-lg">
+        <div class="welcomemsg ms-14 mt-11">
+            <h6 style="font-size: 36px; line-height: 135.5%;">Welcome to<br></h6>
+            <span style="font-size: 46px;line-height: 135.5%; font-weight: 900; color: #6358DC; ">One-time-Chatroom</span>
         </div>
-        <div class="loginform w-[788px] h-[900px] flex-1 shadow-lg shadow-indigo-500/50 rounded-md bg-white ">
-            <form>
-                <h4>Welcome to</h4>
-                <h4>Design School</h4>
-                <div class="content container px-auto">
-                    <div class="login-google">
-                        <img src="imgs/googoo.jpg" alt="googoo.logo">
-                        <span>Login with Google</span>
-                    </div>
-                    <div class="login-facebook">
-                        <img src="imgs/fb.jpg" alt="fb.logo">
-                        <span>Login with Facebook</span>       
-                    </div>
-                    <div class="divider">
-                        <span>OR</span>
-                    </div> 
-                </div>
-            </form>
-        </div>
+    <div class="lg:w-[681px] h-[78px] ms-16 me-11 mt-[37px] rounded-lg drop-shadow-lg bg-white">
+
+    </div>
+    <div class="lg:w-[681px] h-[78px] ms-16 me-11 mt-[28px] mb-[35px] rounded-lg drop-shadow-lg bg-white">
+
+    </div>
+    <div class="divider ms-[67px] me-[48px]">
+        <span class="mx-[35px]">OR</span>
+    </div>
     </div>
     <script src="bundle.js"></script>
 </body>
