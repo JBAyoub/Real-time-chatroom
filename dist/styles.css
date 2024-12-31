@@ -23,8 +23,15 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f9fafb; /* Optional Tailwind-like gray */
+    background-color: #f9fafb; 
 }
 .welcomemsg{
   line-height: 135.5%;
 }
+.emailnpass::placeholder, .inputemail::placeholder{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 135.5%;
+  color: black;
+}
+
