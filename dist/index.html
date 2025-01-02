@@ -8,38 +8,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="flex items-center justify-between bg-gray-100 gap-x-31">
-    <div class="img py-48 ps-[173px]">
-        <img src="imgs/Group.svg" class="lg:w-[640px] h-[640px]"alt="AUTHSVG">
+<body class="px-5 py-2 lg:flex items-center justify-center min-h-screen bg-blue-100">
+    <div class=" hidden lg:flex items-center justify-center w-1/2">
+        <img src="imgs/Group.svg" class="w-3/4"alt="AUTHSVG">
     </div>
-    <div class="loginform lg:h-[900px] w-[788px] bg-white rounded-lg">
-        <div class="welcomemsg ms-14 mt-11">
-            <h6 style="font-size: 36px; line-height: 135.5%;">Welcome to<br></h6>
-            <span style="font-size: 46px;line-height: 135.5%; font-weight: 900; color: #6358DC; ">One-time-Chatroom</span>
+    <div class="loginform h-5/6 w-full lg:w-1/2 bg-white rounded-lg shadow-lg p-8">
+        <div class="welcomemsg text-nowrap mb-8">
+            <h6 class="text-xl lg:text-2xl" style="line-height:135.5%;" ">Welcome to<br></h6>
+            <span class="text-2xl lg:text-4xl font-bold" style="line-height: 135.5%; color: #6358DC; ">One-time-chatroom</span>
         </div>
-    <div class="lg:w-[681px] h-[78px] ms-16 me-11 mt-[37px] rounded-lg drop-shadow-lg bg-white">
+    <div class="w-full h-16 mx-auto mt-11 rounded-lg drop-shadow-lg bg-white flex items-center justify-center">
 
     </div>
-    <div class="lg:w-[681px] h-[78px] ms-16 me-11 mt-[28px] mb-[35px] rounded-lg drop-shadow-lg bg-white">
+    <div class="w-full h-16 mx-auto mt-3 mb-[35px] rounded-lg drop-shadow-lg bg-white">
 
     </div>
-    <div class="divider ms-[67px] me-[48px]">
-        <span class="mx-[35px]">OR</span>
+    <div class="divider mx-1">
+        <span class="mx-5">OR</span>
     </div>
-    <div class="emailnpass relative block">
-        <label for="email" class="absolute z-10 left-[156px] top-[48px] mb-[6px]">
-            <span style="font-size: 12px; line-height: 135.5%;">Email</span>
-        </label>
-        <input type="email" name="email" id="email" class="inputemail bg-[url('imgs/envolope.svg')]  bg-no-repeat bg-[position:20px_center]
-        pl-20 pt-[20px] mt-[36px] ms-[74px] me-[43px] rounded-lg drop-shadow-lg bg-[#ECECEC] lg:w-[671px] h-[77px]" placeholder="example@gmail.com">
-        <label for="password" class="absolute z-10 left-[156px] top-[142px] mb-[6px]">
-            <span style="font-size: 12px; line-height: 135.5%;">Password</span>
-        </label>
+    <div class="emailnpass relative">
+        <label for="email" class="absolute z-10 left-20 top-12 text-sm text-gray-500">Email</label>
+        <input type="email" name="email" id="email" class="inputemail focus:ring bg-[url('imgs/envolope.svg')]  bg-no-repeat bg-[position:20px_center]
+        pl-20 pt-[20px] mt-[36px] pl-14 pr-4 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16" placeholder="example@gmail.com">
+        <label for="email" class="absolute z-10 left-20 top-32 text-sm text-gray-500">Password</label>
         <input type="password" name="password" id="password" class="inputpassword bg-[url('imgs/password.svg')]  bg-no-repeat bg-[position:20px_center]
-        pl-20 pt-[20px] mt-[20px] ms-[74px] me-[43px] rounded-lg drop-shadow-lg bg-[#ECECEC] lg:w-[671px] h-[77px]" placeholder="**********">
-    <div class="forgot mt-[24px] mr-12 text-end" >
-        <a href="#" class="hover:bg-violet-100 rounded-lg p-3"><span style="font-size: 16px; color: #6358DC;">Forgot password?</span></a>
+        pl-20 pt-[20px] mt-[20px] focus:ring pl-14 pr-4 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16" placeholder="**********">
+    <div class="forgot mt-5 text-end" >
+        <a href="#" class="text-end mt-4"><span style="font-size: 16px; color: #6358DC;">Forgot password?</span></a>
     </div>
+    <button type="submit" class=" w-full h-16 mt-11  bg-[#6358DC] text-white rounded-lg">Login</button>
+    <div class="mt-12 text-center" > <span >Don't have an account? <a href="#" style="font-size: 16px; color: #6358DC;">Register!</a></span></div>
+   
     </div>
     </div>
     <script src="bundle.js"></script>

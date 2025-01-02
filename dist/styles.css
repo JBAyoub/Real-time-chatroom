@@ -1,5 +1,9 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: blue;
+}
+html{
+  background-color: red;
 }
 
 .divider {
@@ -18,12 +22,7 @@ body {
     font-size: 14px;
     color: #666;
   }
-  html, body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #f9fafb; 
-}
+  
 .welcomemsg{
   line-height: 135.5%;
 }
