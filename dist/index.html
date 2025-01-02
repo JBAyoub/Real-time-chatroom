@@ -8,38 +8,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
-<body class="px-5 py-2 lg:flex items-center justify-center min-h-screen bg-blue-100">
+<body class="px-5 py-2 flex items-center justify-center min-h-screen bg-blue-100">
     <div class=" hidden lg:flex items-center justify-center w-1/2">
         <img src="imgs/Group.svg" class="w-3/4"alt="AUTHSVG">
     </div>
-    <div class="loginform h-5/6 w-full lg:w-1/2 bg-white rounded-lg shadow-lg p-8">
+    <div class="loginform h-5/6 w-full lg:w-1/2 lg:h-full  bg-white rounded-lg shadow-lg p-8">
         <div class="welcomemsg text-nowrap mb-8">
             <h6 class="text-xl lg:text-2xl" style="line-height:135.5%;" ">Welcome to<br></h6>
             <span class="text-2xl lg:text-4xl font-bold" style="line-height: 135.5%; color: #6358DC; ">One-time-chatroom</span>
         </div>
-    <div class="w-full h-16 mx-auto mt-11 rounded-lg drop-shadow-lg bg-white flex items-center justify-center">
+    <div class="w-full h-16 lg:w-full mx-auto mt-3 rounded-lg drop-shadow-lg bg-white flex items-center justify-center">
 
     </div>
-    <div class="w-full h-16 mx-auto mt-3 mb-[35px] rounded-lg drop-shadow-lg bg-white">
+    <div class="w-full h-16 lg:w-full mx-auto mt-3 mb-[35px] rounded-lg drop-shadow-lg bg-white">
 
     </div>
     <div class="divider mx-1">
         <span class="mx-5">OR</span>
     </div>
-    <div class="emailnpass relative">
-        <label for="email" class="absolute z-10 left-20 top-12 text-sm text-gray-500">Email</label>
-        <input type="email" name="email" id="email" class="inputemail focus:ring bg-[url('imgs/envolope.svg')]  bg-no-repeat bg-[position:20px_center]
-        pl-20 pt-[20px] mt-[36px] pl-14 pr-4 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16" placeholder="example@gmail.com">
-        <label for="email" class="absolute z-10 left-20 top-32 text-sm text-gray-500">Password</label>
-        <input type="password" name="password" id="password" class="inputpassword bg-[url('imgs/password.svg')]  bg-no-repeat bg-[position:20px_center]
-        pl-20 pt-[20px] mt-[20px] focus:ring pl-14 pr-4 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16" placeholder="**********">
-    <div class="forgot mt-5 text-end" >
-        <a href="#" class="text-end mt-4"><span style="font-size: 16px; color: #6358DC;">Forgot password?</span></a>
-    </div>
-    <button type="submit" class=" w-full h-16 mt-11  bg-[#6358DC] text-white rounded-lg">Login</button>
-    <div class="mt-12 text-center" > <span >Don't have an account? <a href="#" style="font-size: 16px; color: #6358DC;">Register!</a></span></div>
-   
-    </div>
+    <form>
+        <div class="emailnpass mt-6">
+            <div class="relative">
+                <input type="email" name="email" id="email" class="inputemail bg-[url('imgs/envolope.svg')]  bg-no-repeat bg-[position:20px_center]
+                rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16 
+                peer w-full ps-16  pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" 
+                placeholder="example@gmail.com">
+                <label for="email" class="absolute left-16 top-2 text-gray-500 text-xs transition-all peer-placeholder-shown:top-1 peer-placeholder-shown:text-sm 
+                peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500">Email</label>
+            </div>
+            <div class="relative mt-6">
+                <input type="password" name="password" id="password" class="inputpassword bg-[url('imgs/password.svg')]  bg-no-repeat bg-[position:20px_center]
+                peer w-full ps-16 pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16" placeholder="**********">
+                <label for="email" class="absolute left-16 top-& text-gray-500 text-xs transition-all peer-placeholder-shown:top-1 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500">Password</label>
+            </div>
+            
+        <div class="forgot mt-5 text-end" >
+            <a href="#" class="text-end mt-4"><span style="font-size: 16px; color: #6358DC;">Forgot password?</span></a>
+        </div>
+        <button type="submit" class=" w-full h-16 lg: mt-5  bg-[#6358DC] text-white rounded-lg">Login</button>
+        </div>
+        <div class="mt-4 sm:mt-8 text-center" > <span >Don't have an account? <a href="#" style="font-size: 16px; color: #6358DC;">Register!</a></span></div>
+
+    </form>
+    
+    
+    
     </div>
     <script src="bundle.js"></script>
 </body>
