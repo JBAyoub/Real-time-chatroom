@@ -26,7 +26,7 @@ html{
 .welcomemsg{
   line-height: 135.5%;
 }
-.inputemail, .inputpassword, .inputpassword::placeholder, .inputemail::placeholder{
+ .inputpassword::placeholder, .inputemail::placeholder{
   font-weight: bold;
   font-size: 16px;
   line-height: 135.5%;
