@@ -18,63 +18,75 @@
   <body
     class="px-5 py-2 flex items-center justify-center min-h-screen bg-slate-200">
     <div
-      class="loginform flex flex-col justify-center gap-y-9 h-5/6 w-full lg:w-1/2 lg:h-full bg-white rounded-lg shadow-lg p-8"
+      class="loginform flex flex-col justify-center h-5/6 w-full lg:w-1/2 lg:h-full bg-white rounded-lg shadow-lg p-8"
     >
       <div class="welcomemsg text-nowrap mb-8">
         <span
           class="text-2xl lg:text-4xl font-bold"
           style="line-height: 135.5%; color: #6358dc"
-          >Forgot password?</span
+          >Glad to see you, </span
         >  <h6 class="text-xl lg:text-2xl" style="line-height: 135.5%">
-         No problem!
+         Join us!
        </h6>
       
       </div>
 
-      <div class="emailnpass text-center mt-6">
+      <div class="emailnpass text-center flex flex-col mt-6">
       <form>
           <div class="relative mb-5">
             <input
               type="email"
               name="email"
               id="email"
-              class="inputemail bg-[url('imgs/envolope.svg')] bg-no-repeat bg-[position:20px_center] rounded-lg drop-shadow-lg bg-[#ECECEC] w-5/6 h-16 peer ps-16 font-bold pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              class="inputemail bg-[url('imgs/envolope.svg')] bg-no-repeat bg-[position:20px_center] rounded-lg drop-shadow-lg bg-[#ECECEC] w-5/6 h-16 peer w-full ps-16 font-bold pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
               placeholder="example@gmail.com"
               style="font-size: 16px"
-            />
+              required/>
             <label
               for="email"
-              class="absolute left-32 top-3 text-gray-500 text-xs transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500"
+              class="absolute left-16 top-2 text-gray-500 text-xs transition-all peer-placeholder-shown:top-1 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500"
               >Email</label
             >
-          
           </div>
-          <div class="hidden relative mt-6">
+          <div class="relative mb-5">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="inputemail bg-[url('imgs/envolope.svg')] bg-no-repeat bg-[position:20px_center] rounded-lg drop-shadow-lg bg-[#ECECEC]  h-16 peer w-full ps-16 font-bold pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                    placeholder="example@gmail.com"
+                    style="font-size: 16px"
+                  />
+                  <label
+                    for="email"
+                    class="absolute left-16 top-2 text-gray-500 text-xs transition-all peer-placeholder-shown:top-1 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500"
+                    >Confirm Email</label
+                  >
+          <div class=" relative mt-6">
             <input
-
-              type="number"
-              name="code"
-              id="code"
+              type="password"
+              name="password"
+              id="password"
               class="inputpassword  bg-[url('imgs/password.svg')] bg-no-repeat bg-[position:20px_center] peer w-full ps-16 pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 rounded-lg drop-shadow-lg bg-[#ECECEC] w-full h-16"
               placeholder="**********"
               style="font-size: 16px"
-            />
+           required />
             <label
               for="email"
               class="absolute left-16 top-& text-gray-500 text-xs transition-all peer-placeholder-shown:top-1 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500"
-              >Code</label
+              >Password</label
             >
         </div>
           <button
             type="submit"
-            class="w-3/4 h-16 lg: mt-5 bg-[#6358DC] text-white rounded-lg"
+            class="w-1/2 h-16 lg: mt-20 bg-[#6358DC] text-white rounded-lg"
           >
-            Send password reset link
+          Register
           </button>
         </div>
         <div class="mt-4 sm:mt-8 text-center">
           <span
-            >Reset Password?
+            >Already Registered?
             <a href="index.html" style="font-size: 16px; color: #6358dc"
               >Go back to login</a
             ></span
