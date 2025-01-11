@@ -7,8 +7,27 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="px-16 py-10 flex items-center min-h-screen bg-slate-200 gap-x-2">
-    <div class="friends px-9 py-5 shadow-lg rounded-3xl bg-white w-full h-100 lg:w-1/4  lg:h-full">
-
+    <div class="friends px-4 py-5 shadow-lg rounded-3xl bg-white w-full h-100 lg:w-1/4  lg:h-full">
+        <div class="top-bar w-full flex justify-between items-center mt-10">
+            <div class="imgandname flex justify-start items-center gap-x-2">
+                <img src="imgs/3d_avatar_16.svg"  class="w-1/4 flex-auto" alt="AUTHSVG">
+                <span class="text-xl text-gray-500 text-balance flex-auto">Username</span>
+            </div>
+            <div class="logout">
+                <button><img src="imgs/Log in.svg"  class="w-3/4" alt="AUTHSVG"></button>
+            </div>
+        
+        </div>
+        <div class="relative mt-6">
+            <input type="text" name="text" id="text"
+                class=" bg-[url('dist\imgs\searchicon.svg')]  bg-[position:20px_center]
+                rounded-full drop-shadow-lg bg-[#ECECEC]  h-24 
+        peer w-full ps-16 font-bold pt-6 pb-2 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                placeholder="example@gmail.com" style="font-size: 16px;">
+            <label for="text"
+                class="absolute left-16 top-3 text-gray-500 text-xs transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-sm 
+        peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-xs peer-focus:text-indigo-500">text</label>
+        </div>
     </div>
     <div class="chatroom px-9 py-5 shadow-lg rounded-3xl bg-white w-full h-100 lg:w-3/4 lg:h-full">
         
