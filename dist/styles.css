@@ -3,8 +3,7 @@ body {
   height: 100%;
   width: 100%;
 }
-html{
-}
+
 
 .divider {
     display: flex;
@@ -32,13 +31,4 @@ html{
   line-height: 135.5%;
   color: black;
   opacity: 0.4;
-}
-hr{
-  display: block;
-  border: 0;
-  padding: 0;
-  border-bottom: 1px black solid;
-  opacity: 0.2;
-  max-width: 23em;
-  margin: 10% auto;
 }
