@@ -83,28 +83,34 @@
                 placeholder="Search in conversation" style="font-size: 16px;">
             <hr class="mt-5 mx-auto max-w-96">
             <div class="flex justify-start items-start gap-x-2 m-10">
-                <img src="imgs/3d_avatar_16.svg" class="max-w-10 grow-0" alt="Avatar.png">
-                <div class="max-w-96 bg-purple-300 text-start text-xl p-4 rounded-3xl relative grow">
-                    <span class="text-ellipsis overflow-hidden text-white drop-shadow-xl">Message content must displayed according to the length of the message, if the message is long the message should be long
+                <img src="imgs/3d_avatar_16.svg" class="max-w-10 grow-0" alt="Avatar.png">  
+                <div class="mr-20 max-w-full bg-purple-300 text-start text-xl p-4 rounded-3xl ">
+                    <span class="text-sm opacity-20 font-normal	italic block">
+                        01/01/2025
+                    </span>                 
+                    <span class="drop-shadow-xl grow">Message content must displayed according to the length of the message, if the message is long the message should be long
                         otherwise it should be short.
                     </span>
-                    <span class="absolute bottom-44 left-4 text-nowrap text-sm italic">01/01/2025</span>
                 </div>
             </div>
             <div class="flex justify-end items-end gap-x-2 m-10 ">
-                <div class="max-w-96 bg-blue-300  text-start text-xl p-4 rounded-3xl relative">
-                    <span class="text-ellipsis overflow-hidden">Short  message
+                <div class=" bg-blue-300  text-start text-xl p-4 rounded-3xl flex flex-col justify-between items-start">
+                    <span class="text-sm opacity-20 font-normal	italic block">01/01/2025</span>
+                    <span class="drop-shadow-xl grow">Short  message
                     </span>
-                    <span class="absolute bottom-16 right-4 text-nowrap text-sm italic">01/01/2025</span>
                 </div>
                 <img src="imgs/3d_avatar_16.svg" class="max-w-10 basis-1/4" alt="Avatar.png">
             </div>
 
-            <div class="min-w-full  h-1/3 flex flex-col justify-end items-center relative ">
-                <textarea type="text" name="message" id="message" class="border-2 border-gray focus:border-indigo-400 shadow-lg outline-none absolute top-80 border w-96 lg:w-full border-black-100 rounded-3xl p-3" placeholder="Type here..">
+           
+        </div>
+        <form>
+            <div class="min-w-full flex flex-col justify-end items-center">
+                <textarea type="text" name="message" id="message" class="border-2 border-gray focus:border-indigo-400 shadow-lg outline-none w-96 lg:w-full border-black-100 rounded-3xl p-3" placeholder="Type here..">
                 </textarea>
                 </div>  
-        </div>
+        </form>
+        
     </div>
 
 </body>
