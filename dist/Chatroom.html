@@ -79,11 +79,26 @@
         <div class="mt-6 text-center">
             <input type="text" name="text" id="text" class=" bg-[url('imgs/searchicon.svg')] bg-no-repeat bg-[position:20px_center]
                 rounded-full shadow-[0_5px_10px_1px_rgba(0,0,0,0.3)] bg-[#ECECEC] 
-        peer w-full lg:w-1/2  font-bold  py-3 pl-12 pr-0 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                peer w-full lg:w-1/2  font-bold  py-3 pl-12 pr-0 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                 placeholder="Search in conversation" style="font-size: 16px;">
             <hr class="mt-5 mx-auto max-w-96">
-
-
+            <div class="flex justify-start items-start gap-x-2 m-10">
+                <img src="imgs/3d_avatar_16.svg" class="max-w-10 grow-0" alt="Avatar.png">
+                <div class="max-w-96 bg-purple-300 text-start text-xl p-4 rounded-3xl relative grow">
+                    <span class="text-ellipsis overflow-hidden">Message content must displayed according to the length of the message, if the message is long the message should be long
+                        otherwise it should be short.
+                    </span>
+                    <span class="absolute bottom-44 left-4 text-nowrap text-sm italic">01/01/2025</span>
+                </div>
+            </div>
+            <div class="flex justify-end items-end gap-x-2 m-10 ">
+                <div class="max-w-96 bg-blue-300  text-start text-xl p-4 rounded-3xl relative basis-1/4">
+                    <span class="text-ellipsis overflow-hidden">Short  message
+                    </span>
+                    <span class="absolute bottom-16 right-4 text-nowrap text-sm italic">01/01/2025</span>
+                </div>
+                <img src="imgs/3d_avatar_16.svg" class="max-w-10 basis-1/4" alt="Avatar.png">
+            </div>
         </div>
     </div>
 
