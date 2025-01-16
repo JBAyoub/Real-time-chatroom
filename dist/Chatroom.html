@@ -9,7 +9,8 @@
 </head>
 
 <body class="px-16 py-10 flex items-center min-h-screen bg-slate-200 gap-x-2">
-    <div class="friends px-4 py-5 border-2 border-indigo-200 hover:border-indigo-400 shadow-lg  rounded-3xl bg-white w-full h-screen lg:w-1/4  lg:h-full">
+    <div
+        class="friends px-4 py-5 border-2 border-indigo-200 hover:border-indigo-400 shadow-lg  rounded-3xl bg-white w-full h-screen lg:w-1/4  lg:h-full">
         <div class="top-bar w-full flex justify-between items-center mt-10">
             <div class="imgandname flex justify-start items-center gap-x-2">
                 <img src="imgs/3d_avatar_16.svg" class="w-1/4 flex-auto shadow-inner" alt="AUTHSVG">
@@ -28,76 +29,67 @@
             <hr class="mt-10 mx-auto max-w-96">
         </div>
         <div class="flex flex-col justify-start items-center  my-4 w-full h-100 gap-y-3">
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
-            <div
-            role="button" class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
-                <div class="flex justify-start items-center rounded-full gap-x-2">
-                    <img src="imgs/3d_avatar_16.svg" class="max-w-16 stroke-black-500 hover:stroke-purple-700"
-                        alt="AUTHSVG">
-                    <span class="text-xl text-gray-500 text-balance">Username</span>
-                </div>
-                <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
-            </div>
+            <ul class="list-none w-full">
+                <li>
+                    <div role="button"
+                        class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
+                        <div class="flex justify-start items-center rounded-full gap-x-2">
+                            <img src="imgs/3d_avatar_16.svg" class="max-w-16" alt="AUTHSVG">
+                            <span class="text-xl text-gray-500 text-balance">Username</span>
+                        </div>
+                        <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
+                    </div>
+                </li>
+                <li>
+                    <div role="button"
+                        class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
+                        <div class="flex justify-start items-center rounded-full gap-x-2">
+                            <img src="imgs/3d_avatar_16.svg" class="max-w-16 " alt="AUTHSVG">
+                            <span class="text-xl text-gray-500 text-balance">Username</span>
+                        </div>
+                        <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
+                    </div>
+                </li>
+                <li>
+                    <div role="button"
+                        class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
+                        <div class="flex justify-start items-center rounded-full gap-x-2">
+                            <img src="imgs/3d_avatar_16.svg" class="max-w-16 " alt="AUTHSVG">
+                            <span class="text-xl text-gray-500 text-balance">Username</span>
+                        </div>
+                        <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
+                    </div>
+                </li>
+                <li>
+                    <div role="button"
+                        class="w-full bg-slate-200 hover:bg-purple-100 hover:border-2  hover:border-indigo-400 drop-shadow-lg  mx-auto rounded-3xl p-3 flex justify-between items-center">
+                        <div class="flex justify-start items-center rounded-full gap-x-2">
+                            <img src="imgs/3d_avatar_16.svg" class="max-w-16 " alt="AUTHSVG">
+                            <span class="text-xl text-gray-500 text-balance">Username</span>
+                        </div>
+                        <button><img src="imgs/Trash.svg" class="w-3/4" alt="trash icon"></button>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="hidden  lg:flex flex-col justify-between chatroom px-9 py-5 shadow-lg rounded-3xl bg-white w-full h-100 lg:w-3/4 lg:h-full border-2 border-indigo-200 hover:border-indigo-400">
+    <div
+        class="hidden  lg:flex flex-col justify-between chatroom px-9 py-5 shadow-lg rounded-3xl bg-white w-full h-100 lg:w-3/4 lg:h-full border-2 border-indigo-200 hover:border-indigo-400">
         <div class="mt-6 text-center">
-            <input type="text" name="text" id="text" class=" bg-[url('imgs/searchicon.svg')] bg-no-repeat bg-[position:20px_center]
+            <input type="text" name="text" id="text"
+                class=" bg-[url('imgs/searchicon.svg')] bg-no-repeat bg-[position:20px_center]
                 rounded-full shadow-[0_5px_10px_1px_rgba(0,0,0,0.3)] bg-[#ECECEC] 
                 peer w-full lg:w-1/2  font-bold  py-3 pl-12 pr-0 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
                 placeholder="Search in conversation" style="font-size: 16px;">
             <hr class="mt-5 mx-auto max-w-96">
             <div class="flex justify-start items-start gap-x-2 m-10">
-                <img src="imgs/3d_avatar_16.svg" class="max-w-10 grow-0" alt="Avatar.png">  
+                <img src="imgs/3d_avatar_16.svg" class="max-w-10 grow-0" alt="Avatar.png">
                 <div class="mr-20 max-w-full bg-purple-300 text-start text-xl p-4 rounded-3xl ">
                     <span class="text-sm opacity-20 font-normal	italic block">
                         01/01/2025
-                    </span>                 
-                    <span class="drop-shadow-xl grow">Message content must displayed according to the length of the message, if the message is long the message should be long
+                    </span>
+                    <span class="drop-shadow-xl grow">Message content must displayed according to the length of the
+                        message, if the message is long the message should be long
                         otherwise it should be short.
                     </span>
                 </div>
@@ -105,7 +97,7 @@
             <div class="flex justify-end items-end gap-x-2 m-10 ">
                 <div class=" bg-blue-300  text-start text-xl p-4 rounded-3xl  items-start">
                     <span class="text-sm opacity-20 font-normal	italic block">01/01/2025</span>
-                    <span class="drop-shadow-xl grow">Short  message
+                    <span class="drop-shadow-xl grow">Short message
                     </span>
                 </div>
                 <img src="imgs/3d_avatar_16.svg" class="max-w-10 basis-1/4" alt="Avatar.png">
@@ -113,9 +105,11 @@
         </div>
         <form>
             <div class="min-w-full flex flex-col justify-end items-center">
-                <textarea type="text" name="message" id="message" class="border-2 border-gray focus:border-indigo-400 shadow-lg outline-none w-96 lg:w-full border-black-100 rounded-3xl p-3" placeholder="Type here..">
+                <textarea type="text" name="message" id="message"
+                    class="border-2 border-gray focus:border-indigo-400 shadow-lg outline-none w-96 lg:w-full border-black-100 rounded-3xl p-3"
+                    placeholder="Type here..">
                 </textarea>
-                </div>  
+            </div>
         </form>
     </div>
 
