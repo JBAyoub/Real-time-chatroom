@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/auth.js":
+/*!*********************!*\
+  !*** ./src/auth.js ***!
+  \*********************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack://real-time-chatroom/./src/index.js?");
+eval("\n\n//# sourceURL=webpack://real-time-chatroom/./src/auth.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("\n\n//# sourceURL=webpack://real-time-chatroom/./src/index.js?");
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	__webpack_modules__["./src/auth.js"]();
 /******/ 	
 /******/ })()
 ;
