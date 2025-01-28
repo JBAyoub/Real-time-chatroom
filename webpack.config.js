@@ -48,5 +48,6 @@ module.exports = {
         devMiddleware: {
             publicPath: '/assets/'
         }
-    }
+    },
+    target: 'web',
 }

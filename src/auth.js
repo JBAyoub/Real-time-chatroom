@@ -1,2 +1,1 @@
-import { initializeApp } from 'firebase/app';
-import { getDoc } from 'firebase/app';
+console.log('fuck off');
